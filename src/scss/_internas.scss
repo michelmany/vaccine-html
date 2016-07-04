@@ -1,0 +1,32 @@
+.pages-internas {
+    background-color: #fff;
+    min-height: 300px;
+    padding: 30px 0 100px;
+
+    .left {
+        border-left: 20px solid $secondary-color;
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .right {
+        border-right: 20px solid $secondary-color;
+        padding-right: 20px;
+        text-align: right;
+        margin-bottom: 40px;
+    }
+}
+
+.content-internas {
+    margin-bottom: 80px;
+
+    h2 {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    h4 {
+        color: $primary-color;
+        text-transform: none;
+    }
+}

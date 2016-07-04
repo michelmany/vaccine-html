@@ -1,0 +1,25 @@
+label {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.contacts {
+    margin-top: 40px;
+    color: $primary-color;
+
+    span {
+        line-height: 2;
+    }
+
+    span.phone {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    i {
+        color: $secondary-color;
+        font-size: 20px;
+        margin-right: 15px;
+    }
+}

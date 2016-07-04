@@ -1,0 +1,43 @@
+.rodape {
+    background-color: $primary-color;
+    min-height: 80px;
+    padding: 10px 0;
+
+    .right {
+        margin-top: 10px;
+        float: right;
+
+        .texts {
+            float: left;
+
+            p {
+                color: #fff;
+                line-height: 1.2;
+                text-align: right;
+                font-family: $primary-font;
+                font-size: 16px;
+            }
+        }
+
+        .social-icons-f {
+            float: left;
+
+            li {
+                display: inline-block;
+                color: #fff;
+                margin-left: 5px;
+                font-size: 28px;
+                a {
+                    color: #fff;
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    img {
+        margin-top: 8px;
+    }
+}

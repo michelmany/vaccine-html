@@ -1,0 +1,15 @@
+@import "mixins";
+@import "fonts";
+
+//GLOBAL AND PARTIALS
+@import "global"; 
+@import "header"; 
+@import "footer"; 
+
+//PAGES
+@import "home"; 
+@import "internas"; 
+@import "faleconosco"; 
+
+//MEDIA QUERY
+@import "responsive";

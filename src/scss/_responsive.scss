@@ -1,0 +1,179 @@
+/***********************
+    MEDIA QUERY
+************************/
+
+@media (max-width: 1680px){
+
+    .bar-left { left: -90%; }
+
+}
+
+
+@media (max-width: 1380px){
+
+    .bar-left { left: -96%; }
+
+}
+
+
+@media (max-width: 1200px){
+
+    .navbar-default .navbar-nav > li > a { font-size: 14px; }
+
+    section#base-home {
+        p {margin-top: 70px;}        
+    }    
+
+}
+
+
+
+/***********************
+    DESKTOP
+************************/
+@media (max-width: 991px){
+
+    #video-home {height: 90%;}
+
+    .bar-left { display:none; }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    section#base-home {
+        p {margin-top: 40px;}        
+    }    
+
+    #video-home #titulo-video {
+        top: 60%;
+        font-size: 40px;
+        img {width: 80px;}
+    }    
+
+    .pic-linda { margin-top: 30px;}
+
+
+}
+
+
+/***********************
+    TABLETS
+************************/
+@media (max-width: 767px){
+
+
+
+    #video-home {height: 35vh;}
+
+    .hoverzoom { width: 100%; }
+
+    .navbar-default .navbar-nav li {
+        padding: 0;
+        text-align: center;
+        border-right: 0px solid #52a8b2;
+        display: inline;
+        vertical-align: middle;
+    }    
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 25px;
+        padding: 15px 15px;
+        line-height: 1;
+    }
+
+    .rodape {
+        text-align: center;
+
+        .right { display: none; }
+
+        .footer-mobile {
+            display: block!important;
+
+            .texts {
+                text-align: center;
+                margin-top: 20px;
+                 p {color: #fff; line-height: 1.2; font-family: $primary-font; font-size: 16px;}
+            }
+            
+            .social-icons-mob {
+                ul {padding: 0!important; margin: 0!important;}
+                li { display: inline-block; color: #fff; margin-left: 5px; font-size: 35px;}
+            }        
+        }
+    }    
+
+    .pic-linda { margin-top: 30px;}
+
+
+
+}
+
+/***********************
+    MOBILE PHONE
+************************/
+
+@media (max-width: 572px){
+
+    #video-home {height: 90%;}
+    
+    .social-icons {
+        display: none;
+    }    
+
+}
+
+
+
+@media (max-width: 480px){
+
+    .hoverzoom { 
+        width: 100%;
+        .retina {padding: 10px 20px;}
+        p {display: none;}
+    } 
+
+    #video-home #titulo-video {
+        top: 60%;
+        font-size: 25px;
+        img {width: 60px;}
+    }
+
+}
+
+
+@media (max-width: 360px) {
+   
+    .hoverzoom { 
+        width: 100%;
+        .retina {padding: 10px 20px;}
+        h2 {font-size: 25px;}
+        p {display: none;}
+    } 
+
+    #video-home #titulo-video {
+        top: 60%;
+        font-size: 25px;
+        img {width: 60px;}
+    }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .hoverzoom { 
+        width: 100%;
+        .retina {padding: 10px 20px;}
+        h2 {font-size: 25px;}
+        p {display: none;}
+    } 
+
+    #video-home #titulo-video {
+        top: 65%;
+        font-size: 25px;
+        img {width: 60px;}
+    }
+
+}

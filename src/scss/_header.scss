@@ -1,0 +1,132 @@
+/***********************
+    HEADER
+************************/
+
+/* LOADER */
+
+/* This only works with JavaScript, if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/preloader01.gif') center no-repeat #fff;
+}
+
+.top-bar {border-top: 8px solid $primary-color; }
+
+.topoDiv {padding: 26px 0 140px;}
+
+.headerText {
+  h4 { 
+    color: #989898;
+    text-transform: none;
+    margin-top: 46px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 10px;
+    border-left: solid 7px $secondary-color ;
+    }
+}
+
+
+.logo {float: left; padding: 10px 0;}
+
+.social-icons {
+    ul { margin-top: 30px;
+        li { 
+            margin-top: 5px; 
+            float: left; 
+            font-size: 32px; 
+            padding: 0 15px; 
+            a {
+                color: $primary-color;
+                &:hover {
+                    color: $text-color;
+                }
+            }
+        }
+    }
+
+}
+
+/* MENU */
+
+.navbar {
+    background-color: $secondary-color;
+    min-height: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+}
+
+.navbar-nav {
+    i { font-size: 14px; };
+}
+
+.navbar-nav li a {
+    // line-height: 95px; /* CENTRALIZA OS LINKS DO MENU NA BARRA*/
+}
+
+
+.navbar-default .navbar-nav  {
+    padding: 12px 0 10px;
+
+    li {
+        
+        padding: 0px 8px; border-right: 2px solid $secondary-color; display: inline; vertical-align:middle;
+        
+        &:last-child {border-right:0px #FFF solid;}
+
+        a {
+            color: $primary-color;
+            font-family: $primary-font;
+            font-size: 16px;
+            transition: all 0.3s ease-out 0s;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 0px 5px;
+            &:hover {
+                color: $link-color;
+            }
+        }
+    }
+
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: $link-color;
+    background-color: $secondary-color;
+}
+
+.navbar-toggle {
+    padding: 9px 10px;
+    margin: 20px 15px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-color: #888!important;
+     &:hover {background-color: $secondary-color!important;}
+    .icon-bar {
+        background-color: #888!important;
+    }
+}
+
+/* BARRA AZUL AO LADO DO MENU */
+.bar-left {
+    width: 100%;
+    height: 42px;
+    background: $primary-color;
+    position: absolute;
+    top: 0;
+    left: -83%;
+    z-index: 10;
+    border-right: 5px solid #fff;
+}
